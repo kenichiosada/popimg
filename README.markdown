@@ -7,10 +7,11 @@ A simple jQuery Plugin to add lighbox effect on your website.
 
 ###Usage
 
-Add 'popup' class to a tag. 
-e.g.) <a href="image.jpg" class="popup">img or text</a>
+- Add 'popup' class to a tag. 
 
-You need to have [spin.js](http://fgnass.github.com/spin.js/) in addition to jQuery library. 
+``<a href="image.jpg" class="popup">img or text</a>``
+
+- You need to have [spin.js](http://fgnass.github.com/spin.js/) in addition to jQuery library. 
 
 ###License
 
