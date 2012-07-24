@@ -1,0 +1,37 @@
+#lightbox {
+	background-color: #000;
+	filter:alpha(opacity=70);
+	height: 100%;
+	left: 0;
+	opacity:0.7;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+#lightbox p {
+	color: #FFF;
+	font-size: 12px;	
+	position: fixed;
+	text-align: right;
+	width: 98%;
+}
+#popup_content {
+	position: fixed;
+	top: 0;
+	width: 100px;
+	z-index: 1010;
+}
+#popup_content img {
+	border: 10px solid #FFF;
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;	
+}
+#popup_content .error {
+	background-color: #FFF;
+	line-height: 30px;
+	text-align: center;
+}
+
