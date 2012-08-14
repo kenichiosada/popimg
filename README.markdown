@@ -7,6 +7,17 @@ A simple jQuery Plugin to add lighbox effect on your website.
 
 ###Usage
 
+Include code below in ``<head></head>``
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.popup').click(function(e) {
+				e.preventDefault();
+				$(this).popimg();		
+			});
+		});
+	</script>
+
 - Add 'popup' class to a tag. 
 
 ``<a href="image.jpg" class="popup">img or text</a>``

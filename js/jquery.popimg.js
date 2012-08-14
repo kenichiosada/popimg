@@ -125,10 +125,3 @@ You must attribute the work in the manner specified by the author or licensor (b
 
 })( jQuery );
 
-$(document).ready(function() {
-  	$('.popup').click(function(e) {
-		e.preventDefault();
-		$(this).popimg();
-	});		
-});
-
