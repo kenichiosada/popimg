@@ -116,7 +116,7 @@ You must attribute the work in the manner specified by the author or licensor (b
     	img.src = image_href;
 
 		//close lightbox
-		$('#lightbox').live('click', function() { 
+		$('#lightbox').click(function(){
 			$('#lightbox').hide();
 			$('#popup_content').hide();
 		});
